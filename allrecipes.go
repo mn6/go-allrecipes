@@ -4,7 +4,8 @@ import (
 	"bytes"
 	"encoding/json"
 	"fmt"
-
+	"time"
+	
 	"github.com/go-redis/redis"
 	"github.com/qiangxue/fasthttp-routing"
 	"github.com/valyala/fasthttp"
@@ -55,7 +56,7 @@ func main() {
 			if err != nil {
 				panic(err)
 			}
-			err = client.Set(key.String(), string(marshaledresults), 0).Err()
+			err = client.Set(key.String(), string(marshaledresults), 72*time.Hour).Err()
 			if err != nil {
 				panic(err)
 			}
