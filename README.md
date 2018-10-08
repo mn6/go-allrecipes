@@ -18,6 +18,7 @@ pm2 start go-allrecipes
 GET: `http://localhost:5557/recipes/<query>`
 
 Ensure [Go is installed properly](https://golang.org/doc/install).
+Ensure [Redis is installed properly](https://redis.io/topics/quickstart).
 
 ## :dizzy: Where is this API used?
 
