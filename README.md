@@ -1,5 +1,5 @@
 # go-allrecipes
-🍳🌭 AllRecipes scraper made in one day powered by FastHTTP and Redis 
+🍳🌭 AllRecipes scraper API made in one day powered by FastHTTP and Redis 
 
 Created to learn [FastHTTP](https://github.com/valyala/fasthttp) and [scrape](https://github.com/yhat/scrape). Requests cached with Redis.
 
