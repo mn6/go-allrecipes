@@ -2,6 +2,7 @@
 🍳🌭 AllRecipes scraper made in one day powered by FastHTTP and Redis 
 
 Created to learn FastHTTP and scrape. Requests cached with Redis.
+
 **Development time so far: 5 hours**
 
 ## :cloud: Installation (Linux)
